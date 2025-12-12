@@ -1,0 +1,20 @@
+# 1. Ignore dataset files (Too large for GitHub)
+data/*.csv
+
+# 2. Ignore Python cache files
+__pycache__/
+*.pyc
+
+# 3. Ignore Virtual Environment folders
+venv/
+env/
+.env
+
+# 4. Ignore IDE settings (VS Code)
+.vscode/
+
+# 5. Ignore Mac system files
+.DS_Store
+
+# Note: We are NOT ignoring *.pkl files so that 
+# others can run your predict.py script immediately.
